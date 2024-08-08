@@ -8,34 +8,40 @@ import { faCoffee } from '@fortawesome/free-solid-svg-icons';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
-import './login.css';
+import '../Login.css';
 
 function Entrar() {
+
+    const navigate = useNavigate();
+    const handleClick = () => {
+        navigate('/');
+    };
    
   
     const [isSignUp, setIsSignUp] = useState(false);
 
     const handleToggle = () => {
         setIsSignUp(!isSignUp);
-        const container = document.getElementById('container');
-        container.classList.toggle("active");
+        const containerEntrar = document.getElementById('containerEntrar');
+        containerEntrar.classList.toggle("active");
     };
 
     const handleRegisterClick = () => {
         setIsSignUp(true);
-        const container = document.getElementById('container');
-        container.classList.add("active");
+        const containerEntrar = document.getElementById('containerEntrar');
+        containerEntrar.classList.add("active");
     };
 
     const handleLoginClick = () => {
         setIsSignUp(false);
-        const container = document.getElementById('container');
-        container.classList.remove("active");
+        const containerEntrar = document.getElementById('containerEntrar');
+        containerEntrar.classList.remove("active");
     };
 
     return (
-        <div className="container" id="container">
-            <div className={`form-container ${isSignUp ? 'sign-up' : 'sign-in'}`}>
+        <div className='tudo'>
+        <div className="containerEntrar" id="containerEntrar">
+            <div className={`form-containerEntrar ${isSignUp ? 'sign-up' : 'sign-in'}`}>
                 {/* Conteúdo do formulário */}
                 {isSignUp ? (
                     <form>
@@ -66,7 +72,7 @@ function Entrar() {
                     </form>
                 )}
             </div>
-            <div className="toggle-container">
+            <div className="toggle-containerEntrar">
                 <div className="toggle">
                     <div className="toggle-panel toggle-left">
                         <h1>Bem-vindo!</h1>
@@ -77,10 +83,17 @@ function Entrar() {
                         <h1>Olá!</h1>
                         <p>Não tem um login?</p>
                         <button className={!isSignUp ? '' : 'hidden'} onClick={handleRegisterClick}>Cadastre-se</button>
+
                     </div>
+                   
                 </div>
             </div>
+            
         </div>
+        <Button type="button" className='BotaoVoltar' variant="primary" onClick={handleClick}> Voltar</Button>
+
+        </div>
+        
     );
 }
 

@@ -1,7 +1,6 @@
 import React, {useState} from "react";
 import { Container, Navbar, Nav, Button, Carousel, Row, Col, } from "react-bootstrap";
 import logo from "../assets/emojo.jpeg";
-import "../App.css";
 import { useNavigate } from "react-router-dom";
 import banner from "../assets/dancarcomvoce.jpg";
 import projeto from "../assets/images.jpg";
