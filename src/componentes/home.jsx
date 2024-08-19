@@ -1,11 +1,10 @@
 import React, {useState} from "react";
 import { Container, Navbar, Nav, Button, Carousel, Row, Col, } from "react-bootstrap";
-import logo from "../assets/emojo.jpeg";
-import { useNavigate } from "react-router-dom";
+import "../App.css";
+import { useNavigate, Link   } from "react-router-dom";
 import banner from "../assets/dancarcomvoce.jpg";
 import projeto from "../assets/images.jpg";
-
-
+import Equipe from "./Equipe";
 
 
 function Home () {
@@ -64,7 +63,7 @@ function Home () {
 <br/><br/><br/><br/>
 
      <section className="banner" id="home">
-            <Container id="inicio">
+            <Container id="containerEntrar">
                 <Row className="align-items-center">
                     <Col xs={12} md={6} xl={7}>
                        <h1>Sobre o Mapa </h1>
@@ -75,7 +74,7 @@ function Home () {
                        <p> Clique para ampliar o mapa e localize os pontos de coleta mais próximos de você!</p>
                     </Col>
                         <Col xs={12} md={6} xl={5}>
-                            <img id="bannerMapa" src={banner} alt="Header img" />
+                            <Link to="/mapa"> <img id="bannerMapa" src={banner} alt="Header img" /> </Link>
                         </Col>
                 </Row>
             </Container>
@@ -104,8 +103,10 @@ function Home () {
                         </Col>
                 </Row>
             </Container>
+            <br/><br/><br/><br/>
         </section>
-        <br/><br/><br/><br/>
+    
+    <Equipe/>
 
 
 

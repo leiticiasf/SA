@@ -72,7 +72,9 @@ nav.navbar .me-auto .nav-link {
   margin: 90px;
 }
 
-
+.exp{
+  border-radius: 50%;
+}
 
 .login{
   margin: auto;
@@ -113,5 +115,19 @@ nav.navbar .me-auto .nav-link {
   height:40px;
 }
 
+#mapa{
+ 
+}
 
+.mapaPagina{
+  background-color: #617f81;
+  height: 640px;
+  margin: auto;
+  display: flex;
+}
 
+#addPonto{
+  margin: auto;
+  display: flex;
+
+}

@@ -7,12 +7,12 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-h1{
+h1{ 
     font-weight: bold;
 }
 
 
-.tudo{
+.bodyEntrar{
     background-color: #c9d6ff;
     background: linear-gradient(to top, #003249, #CCDCDB);
     display: flex;
@@ -213,24 +213,17 @@ h1{
 .containerEntrar.active .toggle-right{
     transform: translateX(200%);
 }
-.BotaoVoltar{
+
+#voltar{
     background-color: #003249;
     color: #fff;
     font-size: 12px;
-    padding: 10px 9px;
-    border: 0;
+    padding: 10px 45px;
+    border: 1px solid transparent;
     border-radius: 8px;
     font-weight: 600;
     letter-spacing: 0.5px;
     text-transform: uppercase;
     margin-top: 10px;
     cursor: pointer;
-    position: fixed;
-    top: 0%;
-    left: 1%;
-}
-.BotaoVoltar:hover{
-    background-color: #3d7792;
-    color: #ffffff;
-    transition: background-color 0.3s ease;
 }

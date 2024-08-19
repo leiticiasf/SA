@@ -3,20 +3,19 @@ import { Button } from 'react-bootstrap';
 import { useNavigate } from 'react-router-dom';
 import { auth, provider } from "../firebase/config";
 import { signInWithPopup } from "firebase/auth";
+import './Login.css'
 
 import { faCoffee } from '@fortawesome/free-solid-svg-icons';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
-import '../Login.css';
 
 function Entrar() {
-
     const navigate = useNavigate();
     const handleClick = () => {
         navigate('/');
     };
-   
+
   
     const [isSignUp, setIsSignUp] = useState(false);
 
@@ -39,7 +38,8 @@ function Entrar() {
     };
 
     return (
-        <div className='tudo'>
+        <div>
+        <div className='bodyEntrar'>
         <div className="containerEntrar" id="containerEntrar">
             <div className={`form-containerEntrar ${isSignUp ? 'sign-up' : 'sign-in'}`}>
                 {/* Conteúdo do formulário */}
@@ -90,10 +90,11 @@ function Entrar() {
             </div>
             
         </div>
-        <Button type="button" className='BotaoVoltar' variant="primary" onClick={handleClick}> Voltar</Button>
+        <button id='voltar' onClick={handleClick}>Voltar</button>
 
         </div>
-        
+
+        </div>
     );
 }
 

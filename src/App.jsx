@@ -3,12 +3,12 @@ import React from 'react';
 import Home from './componentes/home';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Entrar from "./componentes/Entrar";
+import Mapa from "./componentes/Mapa";
+
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 
 function App() {
-  
-
   
   return (
     <>
@@ -20,7 +20,9 @@ function App() {
         <Route path="/entrar" element={<Entrar />} />
         {}
         <Route path="/" element={<Home />} />
-      </Routes>
+        {}
+        <Route path="/mapa" element={<Mapa />} />
+         </Routes>
         </Router>
 
           </>
