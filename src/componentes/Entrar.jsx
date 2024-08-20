@@ -96,6 +96,7 @@ function Entrar() {
 
         </div>
     );
-}
+
+                }
 
 export default Entrar;

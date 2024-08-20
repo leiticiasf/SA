@@ -7,6 +7,7 @@ import projeto from "../assets/images.jpg";
 import Equipe from "./Equipe";
 
 
+
 function Home () {
   const navigate = useNavigate();
     const handleClick = () => {
@@ -107,7 +108,6 @@ function Home () {
         </section>
     
     <Equipe/>
-
 
 
     </>

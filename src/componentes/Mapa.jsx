@@ -1,7 +1,7 @@
 import { Container, Navbar, Button } from "react-bootstrap";
 import "../App.css"
 import mapa from "../assets/mapa.png"
-import { useNavigate } from "react-router";
+import { useNavigate, Link   } from "react-router-dom";
 import adicionarPonto from "../assets/add.png"
 function Mapa(){
 
@@ -9,18 +9,25 @@ function Mapa(){
     const handleClick = () => {
         navigate('/');
     };
+    const irPonto = () => {
+        navigate('/ponto');
+    };
     return(
-        <div>
-        <Navbar>
+        <div className="mapaBody">
+        <Navbar className="topnav">
         <div className="navbar-btn">
-          <Button onClick={handleClick}> Voltar  </Button> 
+        <div className="search-container">
+            <input type="text"  placeholder="Procurar ponto de coleta" name="search"/>
+            <button type="submit"></button>
+            </div>
+
+          <Button onClick={handleClick}> Voltar  </Button>  &nbsp;
+          <Button onClick={irPonto}> Adicionar Ponto  </Button> 
           </div>
       </Navbar>
-
+      <Container className="mapaPagina">
         <h1>Mapa</h1>
-        <Container className="mapaPagina">
-                <img id="mapa" src={mapa}/>
-                    <img id="addPonto " src={adicionarPonto} />
+                  <img id="mapa" src={mapa}/> 
         </Container>
 
         </div>

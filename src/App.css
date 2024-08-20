@@ -8,7 +8,7 @@
 
 
 nav.navbar {
-  padding: 18px 0;
+  padding: 9px 0;
   position: fixed;
   width: 100%;
   top: 0;
@@ -16,6 +16,8 @@ nav.navbar {
   background-color: #003249;
   color: rgb(255, 255, 255) !important;
 }
+
+
 
 nav.navbar .navbar-brand {
   border-radius: 50px;
@@ -66,10 +68,8 @@ nav.navbar .me-auto .nav-link {
 }
 
 
-.containerEntrar {
-  display: flex;
-  justify-content: center;
-  margin: 90px;
+.container{
+  text-align: center;
 }
 
 .exp{
@@ -115,19 +115,37 @@ nav.navbar .me-auto .nav-link {
   height:40px;
 }
 
-#mapa{
- 
-}
+
 
 .mapaPagina{
   background-color: #617f81;
-  height: 640px;
+  height: 690px;
   margin: auto;
-  display: flex;
 }
 
-#addPonto{
-  margin: auto;
-  display: flex;
 
+.topnav .search-container {
+  float: right;
+}
+
+ .topnav input {
+  padding: 10px;
+  width: 80%;
+  margin-top: 1px;
+  font-size: 17px;
+  margin-left: 340px;
+}
+
+
+.topnav .search-container button:hover {
+  background: #ccc;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #e9e9e9;
+}
+
+.mapaBody{
+  background-color: #CCDCDB;
 }
