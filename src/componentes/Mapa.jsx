@@ -2,7 +2,7 @@ import { Container, Navbar, Button } from "react-bootstrap";
 import "../App.css"
 import mapa from "../assets/mapa.png"
 import { useNavigate, Link   } from "react-router-dom";
-import adicionarPonto from "../assets/add.png"
+
 function Mapa(){
 
     const navigate = useNavigate();

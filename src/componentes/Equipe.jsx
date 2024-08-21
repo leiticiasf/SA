@@ -13,9 +13,9 @@ function Equipe() {
         
         <h1>Conheça a Nossa Equipe!</h1>
         <br/><br/><br/>
-                <Container className="leticao">
+                <Container className="direito">
                 <img id="exp" src={exemplo}/>
-                <div className="textoLeticia">
+                <div className="textoDireito">
                 <h1>Letícia Ferreira</h1> 
                 <h3> Backend, Frontend e Design</h3>   
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo, eius? Dolorem sapiente cumque accusamus fugit suscipit aut quaerat! Dolore veniam cumque quo et laboriosam velit, rerum vero quas tempore voluptatem.</p>  
@@ -23,9 +23,9 @@ function Equipe() {
                 </Container>
                 <br/><br/><br/><br/><br/><br/><br/>
 
-                <Container className="sofia">
+                <Container className="esquerdo">
                 <img id="exp2" src={exemplo2}/>
-                <div className="textoSofia">
+                <div className="textoEsquerdo">
                 <h1>Sofia Nimet</h1> 
                 <h3>Design e Frontend</h3>   
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo, eius? Dolorem sapiente cumque accusamus fugit suscipit aut quaerat! Dolore veniam cumque quo et laboriosam velit, rerum vero quas tempore voluptatem.</p>  
@@ -34,9 +34,9 @@ function Equipe() {
 
                  <br/><br/><br/><br/><br/><br/><br/>
 
-                <Container className="livia">
+                <Container className="direito">
                 <img id="exp" src={exemplo3}/>
-                <div className="textoLivia">
+                <div className="textoDireito">
                 <h1>Lívia Derks</h1> 
                 <h3>Design e Frontend</h3>   
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo, eius? Dolorem sapiente cumque accusamus fugit suscipit aut quaerat! Dolore veniam cumque quo et laboriosam velit, rerum vero quas tempore voluptatem.</p>  
@@ -45,9 +45,9 @@ function Equipe() {
 
                  <br/><br/><br/><br/><br/><br/><br/>
 
-                <Container className="lara">
+                <Container className="esquerdo">
                 <img id="exp3" src={exemplo5}/>
-                <div className="textoLara">
+                <div className="textoEsquerdo">
                 <h1>Lara Drews</h1> 
                 <h3>Design e Frontend</h3>   
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo, eius? Dolorem sapiente cumque accusamus fugit suscipit aut quaerat! Dolore veniam cumque quo et laboriosam velit, rerum vero quas tempore voluptatem.</p>  
@@ -56,9 +56,9 @@ function Equipe() {
 
                  <br/><br/><br/><br/><br/><br/><br/>
 
-                <Container className="francisco">
+                <Container className="direito">
                 <img id="exp5" src={exemplo4}/>
-                <div className="textoFrancisco">
+                <div className="textoDireito">
                 <h1>Francisco Gasperini</h1> 
                 <h3>Design e Frontend</h3>   
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo, eius? Dolorem sapiente cumque accusamus fugit suscipit aut quaerat! Dolore veniam cumque quo et laboriosam velit, rerum vero quas tempore voluptatem.</p>  
