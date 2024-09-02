@@ -1,4 +1,3 @@
-import doguitos from "../assets/frango.jpg"
 import { Container, Navbar, Button } from "react-bootstrap";
 import "../App.css"
 import { useNavigate } from "react-router-dom";

@@ -12,6 +12,10 @@ function Mapa(){
     const irPonto = () => {
         navigate('/ponto');
     };
+
+    const verPonto = () => {
+        navigate('/visualizar');
+    }
     return(
         <div className="mapaBody">
         <Navbar className="topnav">
@@ -23,6 +27,7 @@ function Mapa(){
 
           <Button onClick={handleClick}> Voltar  </Button>  &nbsp;
           <Button onClick={irPonto}> Adicionar Ponto  </Button> 
+          <Button onClick={verPonto}>Visualizar Ponto</Button>
           </div>
       </Navbar>
       <Container className="mapaPagina">

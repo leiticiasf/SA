@@ -221,3 +221,56 @@ nav.navbar .me-auto .nav-link {
   background-color: #003249;
   
 }
+
+.verPonto{
+  background-color: #496877;
+  width: 400px;
+  height: 91%;
+  padding: 100px;
+  margin-left:70%;
+  position: relative;
+  bottom: 90%;
+}
+
+#imgexp{
+  width: 300px;
+  height: 190px;
+  position: relative;
+  right:25%;
+  bottom: 12%;
+  border: 3px;
+  border-radius: 12px;
+}
+
+#descricaoPonto{
+  width: 300px ;
+  height: 100px;
+  bottom:7%;
+  border-radius:20px ;
+  position: relative;
+  background-color: white;
+  right: 23%;
+}
+
+#visu{
+  background-color: white;
+  border-radius:20px ;
+  font-size: 22px;
+}
+
+#addcoment{
+  position: relative;
+  right: 50%;
+  top: 30.3% ;
+  width: 200%;
+  height:59px;
+  background-color: #003249;
+}
+
+textarea{
+  border-radius: 20px;
+  width: 65%;
+  position: relative;
+  top:9%;
+}
+
