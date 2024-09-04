@@ -6,6 +6,8 @@ import Entrar from "./componentes/Entrar";
 import Ponto from "./componentes/Ponto";
 import Visualizar from "./componentes/Visualizar";
 import Mapa from "./componentes/Mapa";
+import EditarPerfil from './componentes/EditarPerfil';
+
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 
@@ -27,6 +29,8 @@ function App() {
         <Route path="/ponto" element={<Ponto />} />
         {}
         <Route path="/visualizar" element={<Visualizar/>} />
+        {}
+        <Route path="/editarPerfil" element={<EditarPerfil />} />
          </Routes>
 
         </Router>

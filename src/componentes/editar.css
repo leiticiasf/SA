@@ -1,0 +1,68 @@
+#fotoPerfil{
+    background-color:#cfefff;
+    width: 20%;
+    position: absolute;
+    top: 20%;
+    height: 40%;
+    margin-left: 15%;
+    border-radius: 50%;
+   
+}
+
+#iconefoto{
+    width: 40%;
+    position: absolute;
+    top: 30%;
+    height: 40%;
+    margin-left: 30%;
+}
+
+#inputUser{
+    background-color:#89AAAA;
+    padding: 25px;
+    width: 40%;
+    position: absolute;
+    top: 25%;
+    margin-left: 45%;
+    border-radius: 11px;
+}
+
+#inputEmail{
+    background-color:#89AAAA;
+    padding: 25px;
+    width: 40%;
+    position: absolute;
+    top: 37%;
+    margin-left: 45%;
+    border-radius: 11px;
+}
+
+#inputSenha{
+    background-color:#89AAAA;
+    padding: 25px;
+    width: 40%;
+    position: absolute;
+    top: 50%;
+    margin-left: 45%;
+    border-radius: 11px;
+}
+
+#botaoSalvar{
+    background-color:#89AAAA;
+    width: 7%;
+    height: 5%;
+    color: black;
+    position: absolute;
+    top: 65%;
+    margin-left: 45%;
+    border-radius: 11px;
+    font-weight:500;
+}
+
+#imgss{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 110%;
+    margin-left: 5%;
+}

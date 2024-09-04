@@ -1,4 +1,5 @@
 
 body{
-    background-color: #CCDCDB;
+  background: linear-gradient(to top, #003249, #80CED7, #CCDCDB);
+  height: 100vh;
   }

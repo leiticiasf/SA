@@ -26,7 +26,7 @@ function Mapa(){
             </div>
 
           <Button onClick={handleClick}> Voltar  </Button>  &nbsp;
-          <Button onClick={irPonto}> Adicionar Ponto  </Button> 
+          <Button onClick={irPonto}> Adicionar Ponto  </Button>  &nbsp;
           <Button onClick={verPonto}>Visualizar Ponto</Button>
           </div>
       </Navbar>

@@ -50,6 +50,7 @@ function Home () {
           </Navbar.Brand>
 
           <Nav className="me-auto">
+          <Nav.Link> <Link to="/editarPerfil">Perfil</Link> </Nav.Link>
             <Nav.Link href="#home">Equipe</Nav.Link>
             <Nav.Link href="#features">Contato</Nav.Link>
             <Nav.Link href="#projeto">Projeto</Nav.Link>
